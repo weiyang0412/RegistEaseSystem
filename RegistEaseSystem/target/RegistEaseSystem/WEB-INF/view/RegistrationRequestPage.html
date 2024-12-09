@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration Request</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div th:replace="AcademicAdvisorSideBar :: AcademicAdvisorSideBar"></div>
+    </div>
+    <div class="registration-request">
+        <h1>Registration Request</h1>
+        <div class="student-header">
+            <div class="student-info">
+                <div class="student-profile">
+                    <div class="profile-pic">
+                        <!-- Profile image placeholder -->
+                        <img src="placeholder-profile.png" alt="Profile Picture" width="50" height="50">
+                    </div>
+                    <div class="student-details">
+                        <p><strong>Ali Bin Mohamad</strong></p>
+                        <p>A22EC1234</p>
+                        <p>ALI@GRADUATE.UTM.MY</p>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                    <button class="btn">APPROVE / REJECT</button>
+                </div>
+            </div>
+        </div>
+        <div class="registration-slip">
+            <div class="university-header">
+                <img src="utm-logo.png" alt="UTM Logo" width="100">
+                <h2>Universiti Teknologi Malaysia</h2>
+                <p>Academic Management Division (Undergraduate)</p>
+                <p>81310 UTM Johor Bahru, Johor, Malaysia.</p>
+                <p>(COURSE REGISTRATION SLIP)</p>
+            </div>
+            <div class="student-meta">
+                <p><strong>FACULTY:</strong> Fakulti Komputeran</p>
+                <p><strong>SESSION/SEMESTER:</strong> 202320242</p>
+                <p><strong>NAME:</strong> [Hidden]</p>
+                <p><strong>YEAR/PROGRAMME:</strong> 2 SECIJH</p>
+                <p><strong>NRIC:</strong> [Hidden]</p>
+                <p><strong>MATRIC CARD NO:</strong> [Hidden]</p>
+                <p><strong>ADDRESS:</strong> [Hidden]</p>
+            </div>
+            <table class="course-table">
+                <thead>
+                    <tr>
+                        <th>NO.</th>
+                        <th>CODE</th>
+                        <th>COURSE TITLE</th>
+                        <th>LEARNING METHOD</th>
+                        <th>EXAM TYPE</th>
+                        <th>SECTION</th>
+                        <th>CREDIT</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>SECJ2154</td>
+                        <td>OBJECT ORIENTED PROGRAMMING</td>
+                        <td>07</td>
+                        <td>04</td>
+                        <td>07</td>
+                        <td>04</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SECJ2203</td>
+                        <td>SOFTWARE ENGINEERING</td>
+                        <td>02</td>
+                        <td>03</td>
+                        <td>02</td>
+                        <td>03</td>
+                        <td></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+            <div class="totals">
+                <p><strong>TOTAL CREDIT REGISTERED:</strong> 017</p>
+                <p><strong>TOTAL CREDIT TRANSFERRED:</strong> 000</p>
+            </div>
+        </div>
+        <div class="confirm-button">
+            <button class="btn">Confirm</button>
+        </div>
+    </div>
+</body>
+</html>

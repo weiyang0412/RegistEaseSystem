@@ -1,0 +1,18 @@
+<!-- sidebar.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+	<div class="sidebar" th:fragment="AcademicAdvisorSideBar">
+		<div class="sidebar-container">
+			<ul>
+				<li class="logo"><img
+					th:src="@{/resources/images/UTM-LOGO.png}" alt="Logo"></li>
+				<li><a href="/RegistEaseSystem/academic/home"><img
+						th:src="@{/resources/icons/dashboard.png}" alt="Dashboard Icon"></a></li>
+				<li><a href="/RegistEaseSystem/academic/request"><img
+						th:src="@{/resources/icons/request.png}" alt="Location Icon"></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

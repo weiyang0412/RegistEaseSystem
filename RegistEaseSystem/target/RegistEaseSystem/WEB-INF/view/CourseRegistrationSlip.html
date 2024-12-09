@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Course Registration Slip</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/resources/css/styles.css}">
+</head>
+<body>
+	<!-- Include Sidebar Fragment -->
+	<div th:replace="sidebar :: sidebar"></div>
+
+	<!-- Content -->
+	<div class="content">
+		<h1>Course Registration Slip</h1>
+		<div class="registration">
+			<label for="semester">Session / Semester:</label> <select
+				id="semester" name="semester">
+				<option value="">Select session/semester</option>
+				<option value="2024-1">2024 Semester 1</option>
+				<option value="2024-2">2024 Semester 2</option>
+				<!-- Additional options can be added -->
+			</select>
+		</div>
+	</div>
+
+</body>
+</html>
