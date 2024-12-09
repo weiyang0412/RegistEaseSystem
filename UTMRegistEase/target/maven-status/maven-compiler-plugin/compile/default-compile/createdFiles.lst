@@ -1,0 +1,5 @@
+com\example\controller\CourseController.class
+com\example\controller\AcademicController.class
+com\example\service\ClientDBService.class
+com\example\controller\HomeController.class
+com\example\model\Client.class
